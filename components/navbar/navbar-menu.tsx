@@ -11,7 +11,7 @@ export const NavMenu = () => {
 
   return (
     <div className="bg-muted">
-      <nav className="fixed top-6 z-10 inset-x-4 sm:inset-x-6 bg-background border dark:border-slate-700/70 max-w-screen-xl mx-auto rounded-xl">
+      <nav className="fixed top-6 z-10 inset-x-4 sm:inset-x-6 bg-background border dark:border-slate-700/70 mx-auto rounded-xl">
         <div className="flex flex-wrap items-center justify-between px-4 py-4 sm:py-5">
           {/* Logo and Search */}
           <div className="flex items-center gap-4 sm:gap-10 md:gap-40 w-full md:w-auto justify-between md:justify-start">
