@@ -17,10 +17,10 @@ const teamMembers = [
       "/img/team/daniel-barrister-team-image.jpeg",
   },
   {
-    name: "Bob Smith",
+    name: "Ifiok Paul Akpan",
     title: "COO",
     imageUrl:
-      "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "/img/team/akpan-jodex-team.jpeg",
   },
   {
     name: "Folaremi Dixon",
