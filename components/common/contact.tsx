@@ -8,8 +8,8 @@ import { Textarea } from "../ui/textarea";
 import { Button } from "../ui/button";
 
 const Contact = () => (
-  <div className="min-h-screen flex items-center justify-center py-16 bg-image-contact">
-    <div className="w-full max-w-screen-xl mx-auto px-6 xl:px-10 z-[2] relative">
+  <div className="min-h-screen flex items-center justify-center py-10 sm:py-16 bg-image-contact">
+    <div className="w-full max-w-screen-xl mx-auto px-4 sm:px-6 xl:px-10 z-[2] relative">
       <b className="text-white">Contact Us</b>
       <h2 className="mt-3 text-3xl md:text-4xl font-bold tracking-tight text-white">
         Chat to our friendly team
@@ -18,7 +18,7 @@ const Contact = () => (
         We&apos;d love to hear from you. Please fill out this form or shoot us
         an email.
       </p>
-      <div className="mt-24 grid lg:grid-cols-2 gap-16 md:gap-10">
+      <div className="mt-16 sm:mt-24 grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12">
           <div>
             <div className="h-12 w-12 flex items-center justify-center bg-white/10 text-white rounded-full">
@@ -29,7 +29,7 @@ const Contact = () => (
               Our friendly team is here to help.
             </p>
             <Link
-              className="font-medium text-white"
+              className="font-medium text-white break-all"
               href="mailto:info@jodex.net"
             >
               info@jodex.net
@@ -72,8 +72,8 @@ const Contact = () => (
               Mon-Fri from 8am to 5pm.
             </p>
             <Link
-              className="font-medium text-white"
-              href="tel:akashmoradiya3444@gmail.com"
+              className="font-medium text-white break-all"
+              href="tel:+2345550000000"
             >
               +234 (555) 000-0000
             </Link>
@@ -82,10 +82,10 @@ const Contact = () => (
 
         {/* Form */}
         <Card className="bg-[#efde3c] shadow-none border-none">
-          <CardContent className="p-6 md:p-10">
+          <CardContent className="p-4 sm:p-6 md:p-10">
             <form>
-              <div className="grid md:grid-cols-2 gap-x-8 gap-y-5">
-                <div className="col-span-2 sm:col-span-1">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-5">
+                <div className="col-span-1">
                   <Label htmlFor="firstName">First Name</Label>
                   <Input
                     placeholder="First name"
@@ -93,7 +93,7 @@ const Contact = () => (
                     className="mt-1.5 bg-white h-11 shadow-none"
                   />
                 </div>
-                <div className="col-span-2 sm:col-span-1">
+                <div className="col-span-1">
                   <Label htmlFor="lastName">Last Name</Label>
                   <Input
                     placeholder="Last name"
@@ -101,7 +101,7 @@ const Contact = () => (
                     className="mt-1.5 bg-white h-11 shadow-none"
                   />
                 </div>
-                <div className="col-span-2">
+                <div className="col-span-1 md:col-span-2">
                   <Label htmlFor="email">Email</Label>
                   <Input
                     type="email"
@@ -110,7 +110,7 @@ const Contact = () => (
                     className="mt-1.5 bg-white h-11 shadow-none"
                   />
                 </div>
-                <div className="col-span-2">
+                <div className="col-span-1 md:col-span-2">
                   <Label htmlFor="message">Message</Label>
                   <Textarea
                     id="message"
@@ -119,7 +119,7 @@ const Contact = () => (
                     rows={6}
                   />
                 </div>
-                <div className="col-span-2 flex items-center gap-2">
+                <div className="col-span-1 md:col-span-2 flex items-center gap-2">
                   <Checkbox id="acceptTerms" className="border-white" />
                   <Label htmlFor="acceptTerms">
                     You agree to our{" "}
