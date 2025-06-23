@@ -67,14 +67,14 @@ const FooterComps= () => {
           <div className="py-8 flex flex-col-reverse sm:flex-row items-center justify-between gap-x-2 gap-y-5 px-6 xl:px-10">
             {/* Copyright */}
             <span className="text-gray-300">
-              &copy; {new Date().getFullYear()}{" "}
+              &copy; {new Date().getFullYear()}{" "} |{" "}
               <Link href="/" target="_blank">
-                Jodex.net
+                jodex.net
               </Link>
               . All rights reserved.
             </span>
 
-            <div className="flex items-center gap-5 text-muted-foreground">
+            {/*<div className="flex items-center gap-5 text-muted-foreground">
               <Link href="#" target="_blank">
                 <TwitterIcon className="h-5 w-5" />
               </Link>
@@ -87,7 +87,7 @@ const FooterComps= () => {
               <Link href="#" target="_blank">
                 <GithubIcon className="h-5 w-5" />
               </Link>
-            </div>
+            </div>*/}
           </div>
         </div>
       </footer>

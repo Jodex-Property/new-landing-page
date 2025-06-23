@@ -1,6 +1,7 @@
 import { ArrowUpRight, CirclePlay } from "lucide-react";
 import { Button } from "../ui/button";
 import { BlurFadeDemo } from "./hero-image";
+import Link from "next/link";
 
 export const HeroContent = () => {
   return (
@@ -19,9 +20,12 @@ export const HeroContent = () => {
           rental experiences—ensuring peace of mind, security, and long-term value for all our users.
         </p>
         <div className="mt-10 sm:mt-12 flex flex-col sm:flex-row items-center gap-4">
-          <Button size="lg" className="rounded-full text-base bg-[#020749] hover:bg-[#efde3c] hover:text-gray-900 shadow-none cursor-pointer">
-            Explore Our Services <ArrowUpRight className="!h-5 !w-5" />
-          </Button>
+          <a href="#services-features">
+            <Button size="lg" className="rounded-full text-base bg-[#020749] hover:bg-[#efde3c] hover:text-gray-900 shadow-none cursor-pointer">
+              Explore Our Services <ArrowUpRight className="!h-5 !w-5" />
+            </Button>
+          </a>
+          
           <Button
             variant="outline"
             size="lg"
