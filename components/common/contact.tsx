@@ -43,7 +43,7 @@ const Contact = () => (
             <p className="my-2.5 text-white">
               Our friendly team is here to help.
             </p>
-            <Link className="font-medium text-white" href="#">
+            <Link className="font-medium text-white" href="https://wa.link/nq1oj2" target="_blank">
               Start new chat
             </Link>
           </div>
@@ -53,14 +53,14 @@ const Contact = () => (
             </div>
             <h3 className="mt-6 font-semibold text-xl text-white">Office</h3>
             <p className="my-2.5 text-white">
-              Come say hello at our office HQ.
+              Visit our office HQ.
             </p>
             <Link
               className="font-medium text-white"
-              href="https://map.google.com"
+              href="https://maps.app.goo.gl/Zr291jb9eBAiKsUL6"
               target="_blank"
             >
-              Abuja | Lagos
+              16 Ademola adetokunbo crescent Wuse2 Abuja, Nigeria.
             </Link>
           </div>
           <div>
@@ -73,9 +73,9 @@ const Contact = () => (
             </p>
             <Link
               className="font-medium text-white break-all"
-              href="tel:+2345550000000"
+              href="tel:+2349086719800"
             >
-              +234 (555) 000-0000
+              +234 908 671 9800
             </Link>
           </div>
         </div>
