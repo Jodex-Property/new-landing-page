@@ -5,23 +5,25 @@ const teamMembers = [
 	{
 		name: "Clement Sampson",
 		title: "Founder & CEO",
-		imageUrl: "/img/team/sam-clement-jodex.jpeg",
-	},
-	{
-		name: "Daniel Antiaobong",
-		title: "Legal Counsel",
-		imageUrl: "/img/team/daniel-barrister-team-image.jpeg",
+		imageUrl: "/img/team/sam-clement-jodex.jpg",
 	},
 	{
 		name: "Ifiok Paul Akpan",
 		title: "COO",
-		imageUrl: "/img/team/akpan-jodex-team.jpeg",
+		imageUrl: "/img/team/akpan-jodex-team.jpg",
 	},
 	{
 		name: "Folaremi Dixon",
 		title: "CTO",
-		imageUrl: "/img/team/fola-dixon-jodex.JPG",
+		imageUrl: "/img/team/fola-dixon-jodex.jpg",
 	},
+	{
+		name: "Daniel Antiaobong",
+		title: "Legal Counsel",
+		imageUrl: "/img/team/daniel-barrister-jodex.jpg",
+	},
+	
+	
 ];
 
 const OurTeam = () => {
