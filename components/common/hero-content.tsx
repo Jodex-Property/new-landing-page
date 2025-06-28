@@ -19,22 +19,13 @@ export const HeroContent = () => {
           Through innovative technology and tailored solutions, we simplify property management and enhance 
           rental experiences—ensuring peace of mind, security, and long-term value for all our users.
         </p>
-        <div className="mt-10 sm:mt-12 flex flex-col sm:flex-row items-center gap-4">
+        {/*<div className="mt-10 sm:mt-12 flex flex-col sm:flex-row items-center gap-4">
           <a href="#services-features">
             <Button size="lg" className="rounded-full text-base bg-[#020749] hover:bg-[#efde3c] hover:text-gray-900 shadow-none cursor-pointer">
               Explore Our Services <ArrowUpRight className="!h-5 !w-5" />
             </Button>
           </a>
-          
-          <Button
-            variant="outline"
-            size="lg"
-            className="rounded-full text-base shadow-none cursor-pointer"
-            id="#services-features"
-          >
-            <CirclePlay className="!h-5 !w-5" /> Watch Demo
-          </Button>
-        </div>
+        </div>*/}
       </div>
       <div className="w-full aspect-video sm:aspect-[4/3] lg:aspect-auto lg:h-[calc(100vh-4rem)] rounded-xl mt-10 lg:mt-0">
         <BlurFadeDemo />

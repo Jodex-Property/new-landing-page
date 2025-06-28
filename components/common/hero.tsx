@@ -5,7 +5,7 @@ import { HeroContent } from "./hero-content"
 
 export const Hero = () => {
     return (
-        <div className="min-h-screen bg-muted flex items-center justify-center px-6">
+        <section className="min-h-screen bg-muted flex items-center justify-center px-6">
            <NavMenu />
            <HeroContent />
             <Particles 
@@ -14,6 +14,6 @@ export const Hero = () => {
                 ease={80}
                 refresh
             />
-        </div>
+        </section>
     )
 }

@@ -181,3 +181,8 @@
   background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity here */
   z-index: 1;
 }
+
+
+html {
+  scroll-behavior: smooth;
+}

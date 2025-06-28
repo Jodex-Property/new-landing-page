@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'picsum.photos/seed/*',
+      },
+      {
+        protocol: 'https',
+        hostname: 'assets.codepen.io'
       }
     ]
   }

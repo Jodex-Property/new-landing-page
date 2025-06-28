@@ -33,7 +33,7 @@ const OurTeam = () => {
 				<h2 className="mt-3 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#020749]">
 					Meet Our Team
 				</h2>
-				<p className="mt-4 sm:mt-6 text-base sm:text-lg">
+				{/*<p className="mt-4 sm:mt-6 text-base sm:text-lg">
 					Our philosophy is simple — hire a team of diverse, passionate people
 					and foster a culture that empowers you to do your best work.
 				</p>
@@ -44,7 +44,7 @@ const OurTeam = () => {
 					>
 						Open Positions
 					</Button>
-				</div>
+				</div>*/}
 			</div>
 
 			<div className="w-full grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10 sm:gap-x-8 sm:gap-y-12">

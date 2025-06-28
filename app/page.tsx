@@ -9,8 +9,8 @@ import ServicesFeatures from "@/components/common/services-features";
 export default function Home() {
   return (
     <>
-      <Hero />
       <ServicesFeatures />
+      <Hero />
       <OurPartners />
       <OurStats />
       <OurTeam />

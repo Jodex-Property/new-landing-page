@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const ServicesFeatures = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center" id="services-features">
+    <section className="min-h-screen flex items-center justify-center mt-28" id="services-features">
       <div className="w-full max-w-screen-lg mx-auto py-12 px-6">
         <h2 className="text-3xl leading-10 sm:text-4xl md:text-[40px] md:leading-[3.25rem] text-[#020749] font-bold tracking-tight">
           Rent Smarter. Live Better. Manage Easier.
@@ -164,7 +164,7 @@ const ServicesFeatures = () => {
           <div className="hidden md:block border border-border/80 agent-feature-image-bg rounded-xl col-span-1 md:col-span-3 lg:col-span-2"></div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
