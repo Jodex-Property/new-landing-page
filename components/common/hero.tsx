@@ -1,12 +1,11 @@
 import { Particles } from "../magicui/particles"
-import { NavMenu } from "../navbar/navbar-menu"
 import { HeroContent } from "./hero-content"
 
 
 export const Hero = () => {
     return (
         <section className="min-h-screen bg-muted flex items-center justify-center px-6">
-           <NavMenu />
+         
            <HeroContent />
             <Particles 
                 className="absolute inset-0 z-0"
