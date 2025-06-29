@@ -4,7 +4,7 @@ import { Hero } from "@/components/common/hero";
 import OurPartners from "@/components/common/our-partners";
 import OurStats from "@/components/common/our-stats";
 import ServicesFeatures from "@/components/common/services-features";
-import UserTestimonial from "@/components/common/users-testimontials";
+import { TestimonialsUser } from "@/components/common/testimonals";
 
 
 
@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <OurPartners />
       <OurStats />
-      <UserTestimonial />
+      <TestimonialsUser />
       <Contact />
     </>
   );
