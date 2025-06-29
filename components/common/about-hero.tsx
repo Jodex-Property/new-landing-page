@@ -25,7 +25,7 @@ const AboutHero = () => {
         </p>
           
         </div>
-        <div className="w-full aspect-video lg:aspect-auto lg:w-[1000px] lg:h-screen bg-accent rounded-xl lg:rounded-none" />
+        <div className="w-full aspect-video lg:aspect-auto lg:w-[1000px] lg:h-screen bg-image-about rounded-xl lg:rounded-none" />
       </div>
     </div>
   );

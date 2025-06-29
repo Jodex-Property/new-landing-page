@@ -149,6 +149,16 @@
 
 }
 
+.bg-image-about {
+  position: relative;
+  background-image: url('/img/gallery/3.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-attachment: fixed;
+
+}
+
 .bg-image-stats::before {
   content: '';
   position: absolute;
