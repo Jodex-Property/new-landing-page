@@ -3,6 +3,7 @@ import { Button } from "../ui/button";
 import { BlurFadeDemo } from "./hero-image";
 import Link from "next/link";
 import SearchSharedApartment from "./search-shared-apartment";
+import PropertyFilterForm from "./PropertyFilterForm";
 
 export const HeroContent = () => {
   return (
@@ -26,10 +27,7 @@ export const HeroContent = () => {
         </div>
       </div>*/}
       <div className="my-auto">
-        <h1 className="mt-6 mb-6  max-w-[20ch] text-4xl  font-bold text-[#020749] !leading-[1.2] tracking-tight">
-          Smart Renting Made Simple.
-        </h1>
-        <SearchSharedApartment />
+        <PropertyFilterForm />
       </div>
       <div className="w-full aspect-video sm:aspect-[4/3] lg:aspect-auto lg:h-[calc(100vh-4rem)] rounded-xl mt-10 lg:mt-0">
         <BlurFadeDemo />

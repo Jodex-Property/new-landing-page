@@ -111,7 +111,7 @@ const SearchSharedApartment = () => {
           <Button type="submit" className="bg-[#020749] hover:bg-[#efde3c] hover:text-[#020749] cursor-pointer">Search</Button>
         </div>
 
-        <div>
+        {/*<div>
           <label className="block text-sm font-medium mb-1">Price Range: ₦{priceRange[0]} - ₦{priceRange[1]}</label>
           <Slider
             min={0}
@@ -120,7 +120,7 @@ const SearchSharedApartment = () => {
             value={priceRange}
             onValueChange={(value: any) => setPriceRange(value as [number, number])}
           />
-        </div>
+        </div>*/}
 
         <div>
           <label className="block text-sm font-medium mb-2">Amenities</label>
@@ -138,7 +138,7 @@ const SearchSharedApartment = () => {
         </div>
       </form>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {/*<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {paginatedResults.map((apt) => (
           <motion.div
             key={apt.id}
@@ -157,21 +157,7 @@ const SearchSharedApartment = () => {
             </Card>
           </motion.div>
         ))}
-      </div>
-
-      {totalPages > 1 && (
-        <div className="flex justify-center mt-6 space-x-2">
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-            <Button
-              key={page}
-              variant={currentPage === page ? "default" : "outline"}
-              onClick={() => setCurrentPage(page)}
-            >
-              {page}
-            </Button>
-          ))}
-        </div>
-      )}
+      </div>*/}
     </div>
   );
 };
